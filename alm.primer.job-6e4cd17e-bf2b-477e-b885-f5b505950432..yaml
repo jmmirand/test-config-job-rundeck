@@ -3,7 +3,7 @@
   executionEnabled: true
   id: 6e4cd17e-bf2b-477e-b885-f5b505950432
   loglevel: INFO
-  name: primer jobb (2)
+  name: alm.primer.job
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
