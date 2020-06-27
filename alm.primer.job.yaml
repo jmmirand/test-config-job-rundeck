@@ -13,5 +13,5 @@
     - script: "ls\nls \nwhoami"
     keepgoing: false
     strategy: node-first
-  uuid: 6e4cd17e-bf2b-477e-b885-f5b505950431
+  uuid: alm.primer.job
 
