@@ -1,7 +1,7 @@
 - defaultTab: nodes
   description: ''
   executionEnabled: true
-  id: 6e4cd17e-bf2b-477e-b885-f5b505950431
+  id: alm.primer.job
   loglevel: INFO
   name: primer jobb
   nodeFilterEditable: false
