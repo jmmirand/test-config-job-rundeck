@@ -3,14 +3,14 @@
   executionEnabled: true
   id: alm.primer.job
   loglevel: INFO
-  name: primer jobb
+  name: primer jobb (2) 
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
   scheduleEnabled: true
   sequence:
     commands:
-    - script: "ls \nwhoami"
+    - script: "ls\nls \nwhoami"
     keepgoing: false
     strategy: node-first
   uuid: 6e4cd17e-bf2b-477e-b885-f5b505950431
