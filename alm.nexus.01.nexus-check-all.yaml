@@ -2,7 +2,7 @@
   description: ''
   executionEnabled: true
   group: "alm/nexus/01"
-  id: "alm\.nexus\.01.nexus-check-all"
+  id: "alm.nexus.01.nexus-check-all"
   loglevel: INFO
   name: Nexus - Check SPECIFIC Proxy REPO PROD (ccccn000058)
   nodeFilterEditable: false
