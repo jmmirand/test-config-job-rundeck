@@ -73,4 +73,4 @@
       type: com.batix.rundeck.plugins.AnsiblePlaybookWorkflowStep
     keepgoing: false
     strategy: node-first
-  uuid: "alm\.nexus\.01.nexus-check-all"
+  uuid: "alm.nexus.01.nexus-check-all"
