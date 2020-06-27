@@ -1,0 +1,17 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: 6e4cd17e-bf2b-477e-b885-f5b505950431
+  loglevel: INFO
+  name: primer jobb
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - script: "ls \nwhoami"
+    keepgoing: false
+    strategy: node-first
+  uuid: 6e4cd17e-bf2b-477e-b885-f5b505950431
+
