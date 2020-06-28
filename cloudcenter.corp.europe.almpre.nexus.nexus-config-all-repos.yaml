@@ -30,12 +30,13 @@
     value: playbooks/nexus3-check-repos.yml
 
   - name: ignore_errors
+    required: true
     value: 'True'
     values:
      - True
      - False
-    #hidden: true
-    required: true
+    valuesListDelimiter: ','
+
   plugins:
     ExecutionLifecycle: null
   scheduleEnabled: true
@@ -67,7 +68,8 @@
           ${option.launchHost}
         ansible-extra-vars: '{"launchHosts": "${option.launchHost}", "nexus3_ansible_inventory_tag":
           "${option.inventories-branch}", "nexus3_ansible_source_tag": "${option.source-branch}",
-           "test_script_ignore_errors": "${option.ignore_errors}" ,  "limit_repository": "${option.nexus-repo-name}"}'
+           "test_script_ignore_errors": "${option.ignore_errors}" ,  "limit_repository":
+           "${option.nexus-repo-name}"}'
         ansible-playbook: ${option.playbook}
         ansible-ssh-auth-type: privateKey
         ansible-ssh-key-storage-path: keys/ssh/almrundeck-private-key
