@@ -36,6 +36,9 @@
      - False
     #hidden: true
     required: true
+  - label: Nombre Repo que queremos tratar
+    name: nexus-repo-name
+    required: true
   plugins:
     ExecutionLifecycle: null
   scheduleEnabled: true
