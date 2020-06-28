@@ -17,12 +17,12 @@
     label: Inventario del proyecto Inventario
     name: inventory-path
     required: true
-    value: inventories/almmc
+    value: "inventories/almmc"
   - hidden: true
     label: Grupo Ansible
     name: launchHost
     required: true
-    value: ccccn000058.cloudcenter.corp
+    value: "ccccn000058.cloudcenter.corp"
   - hidden: true
     label: Ruta del Playbook
     name: playbook
