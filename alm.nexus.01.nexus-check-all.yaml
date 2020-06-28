@@ -61,8 +61,8 @@
         ansible-extra-param: -i /opt/rundeck/${job.id}/${option.inventory-path} -l
           ${option.launchHost}
         ansible-extra-vars: '{"launchHosts": "${option.launchHost}", "nexus3_ansible_inventory_tag":
-          "${option.inventories-branch}", "nexus3_ansible_source_tag": "${option.source-branch}",
-          "test_script_ignore_errors": false, "limit_repository": "${option.nexus-repo-name}"}'
+          "${option.inventories-branch}", "nexus3_ansible_source_tag": "${option.source-branch}"
+           "test_script_ignore_errors" : false ,  "limit_repository": "${option.nexus-repo-name}"}'
         ansible-playbook: ${option.playbook}
         ansible-ssh-auth-type: privateKey
         ansible-ssh-key-storage-path: keys/ssh/almrundeck-private-key
