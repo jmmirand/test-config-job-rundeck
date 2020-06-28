@@ -1,8 +1,8 @@
 - defaultTab: nodes
   description: ''
   executionEnabled: true
-  group: "cloudcenter.corp/europe/almpre/nexus"
-  id: "cloudcenter.corp.europe.almpre.nexus.nexus-config-all-repos"
+  group: cloudcenter.corp/europe/almpre/nexus
+  id: cloudcenter.corp.europe.almpre.nexus.nexus-config-all-repos
   loglevel: INFO
   name: Nexus - Config-Create ALL Proxy Repos
   nodeFilterEditable: false
@@ -17,12 +17,12 @@
     label: Inventario del proyecto Inventario
     name: inventory-path
     required: true
-    value: "inventories/almmc"
+    value: inventories/almmc
   - hidden: true
     label: Grupo Ansible
     name: launchHost
     required: true
-    value: "nexus_proxy_almpre"
+    value: nexus_proxy_almpre
   - hidden: true
     label: Ruta del Playbook
     name: playbook
