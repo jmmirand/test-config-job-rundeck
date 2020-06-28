@@ -2,9 +2,9 @@
   description: ''
   executionEnabled: true
   group: "cloudcenter.corp/europe/almpre/nexus"
-  id: "cloudcenter.corp.europe.almpre.nexus.nexus-check-specific-repo"
+  id: "cloudcenter.corp.europe.almpre.nexus.nexus-check-all"
   loglevel: INFO
-  name: Nexus - Check SPECIFIC Proxy Repo
+  name: Nexus - Check SPECIFIC Proxy REPO PROD (nexus_proxy_almpre)
   nodeFilterEditable: false
   options:
   - name: inventories-branch
@@ -81,4 +81,4 @@
       type: com.batix.rundeck.plugins.AnsiblePlaybookWorkflowStep
     keepgoing: false
     strategy: node-first
-  uuid: "cloudcenter.corp.europe.almpre.nexus.nexus-check-specific-repo"
+  uuid: "cloudcenter.corp.europe.almpre.nexus.nexus-check-all"

@@ -4,7 +4,7 @@
   group: "cloudcenter.corp/europe/almpre/nexus"
   id: "cloudcenter.corp.europe.almpre.nexus.nexus-check-all-repos"
   loglevel: INFO
-  name: Nexus - Check ALL Proxy Repos PRE (nexus_proxy_almpre)
+  name: Nexus - Check ALL Proxy Repos
   nodeFilterEditable: false
   options:
   - name: inventories-branch

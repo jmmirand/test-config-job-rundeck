@@ -4,7 +4,7 @@
   group: "cloudcenter.corp/europe/almpre/nexus"
   id: "cloudcenter.corp.europe.almpre.nexus.nexus-config-specific-repo"
   loglevel: INFO
-  name: Nexus - Config-Create SPECIFIC Proxy Repo PRE (nexus_proxy_almpre)
+  name: Nexus - Config-Create SPECIFIC Proxy Repo
   nodeFilterEditable: false
   options:
   - name: inventories-branch
@@ -35,6 +35,9 @@
      - True
      - False
     #hidden: true
+    required: true
+  - label: Nombre Repo que queremos tratar
+    name: nexus-repo-name
     required: true
   plugins:
     ExecutionLifecycle: null

@@ -1,8 +1,8 @@
 - defaultTab: nodes
   description: ''
   executionEnabled: true
-  group: "cloudcenter.corp/europe/almpre/nexus"
-  id: "cloudcenter.corp.europe.almpre.nexus.nexus-check-specific-repo"
+  group: "cloudcenter.corp/europe/alm/nexus/ccccn000058"
+  id: "cloudcenter.corp.europe.alm.nexus.ccccn000058.nexus-check-specific-repo"
   loglevel: INFO
   name: Nexus - Check SPECIFIC Proxy Repo
   nodeFilterEditable: false
@@ -22,7 +22,7 @@
     label: Grupo Ansible
     name: launchHost
     required: true
-    value: "nexus_proxy_almpre"
+    value: "ccccn000058.cloudcenter.corp"
   - hidden: true
     label: Ruta del Playbook
     name: playbook
@@ -81,4 +81,4 @@
       type: com.batix.rundeck.plugins.AnsiblePlaybookWorkflowStep
     keepgoing: false
     strategy: node-first
-  uuid: "cloudcenter.corp.europe.almpre.nexus.nexus-check-specific-repo"
+  uuid: "cloudcenter.corp.europe.alm.nexus.ccccn000058.nexus-check-specific-repo"
