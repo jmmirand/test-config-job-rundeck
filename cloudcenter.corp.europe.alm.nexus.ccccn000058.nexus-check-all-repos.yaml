@@ -28,7 +28,6 @@
     name: playbook
     required: true
     value: playbooks/nexus3-check-repos.yml
-
   - name: ignore_errors
     required: true
     value: 'True'
@@ -36,7 +35,6 @@
     - 'false'
     - 'true'
     valuesListDelimiter: ','
-
   plugins:
     ExecutionLifecycle: null
   scheduleEnabled: true
