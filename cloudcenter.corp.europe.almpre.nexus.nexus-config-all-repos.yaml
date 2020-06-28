@@ -78,4 +78,4 @@
       type: com.batix.rundeck.plugins.AnsiblePlaybookWorkflowStep
     keepgoing: false
     strategy: node-first
-  uuid: "cloudcenter.corp.europe.almpre.nexus.nexus-config-all-repos"
+  uuid: cloudcenter.corp.europe.almpre.nexus.nexus-config-all-repos
