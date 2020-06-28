@@ -79,6 +79,6 @@
         ansible-vault-storage-path: keys/vault/ansible-nexus-almmc-inventory
       nodeStep: false
       type: com.batix.rundeck.plugins.AnsiblePlaybookWorkflowStep
-    keepgoing: false
+    keepgoing: falsa
     strategy: node-first
   uuid: cloudcenter.corp.europe.alm.nexus.ccccn000058.nexus-check-specific-repo
